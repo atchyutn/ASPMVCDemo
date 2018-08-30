@@ -9,9 +9,9 @@ namespace MVCDemo.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        public string Index()
+        public string Index(string Id, string name)
         {
-            return "Hello from MVC application";
+            return "Id= " + Id + " and name= " + name;
         }
     }
 }
